@@ -1,0 +1,3629 @@
+{
+  "_index": "my_index",
+  "_type": "doc",
+  "_id": "486",
+  "_version": 23077,
+  "_score": 1,
+  "_source": {
+    "query": {
+      "bool": {
+        "filter": [
+          {
+            "bool": {
+              "should": [
+                {
+                  "query_string": {
+                    "query": "string1:\"stop with the bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"enough with the bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"such bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "bool": {
+                          "should": [
+                            {
+                              "query_string": {
+                                "query": "string1:\"bullshit\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"bull shit\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            }
+                          ],
+                          "adjust_pure_negative": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "bool": {
+                          "should": [
+                            {
+                              "query_string": {
+                                "query": "string1:\"fuck\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"fucking\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"shitty\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"conning\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"scammer\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"scam\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"spam\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"spamming\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"spammer\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"con\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"fraud\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"fraudulent\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"ass\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"asshole\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"ass hole\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"stupid\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"dumb\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"idiot\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"idiots\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"idiotic\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"damn\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"piss\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"bitch\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"bitches\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"hell\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"waste my time\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"wasting my time\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"bother me\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"bothering me\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"liar\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"lying\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"lie\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"fake\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"trash\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"garbage\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"rubbish\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"liberal\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"nazi\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"Marxist\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"lol\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            },
+                            {
+                              "query_string": {
+                                "query": "string1:\"lmao\"",
+                                "fields": [],
+                                "type": "best_fields",
+                                "default_operator": "or",
+                                "max_determinized_states": 10000,
+                                "enable_position_increments": true,
+                                "fuzziness": "AUTO",
+                                "fuzzy_prefix_length": 0,
+                                "fuzzy_max_expansions": 50,
+                                "phrase_slop": 0,
+                                "escape": false,
+                                "auto_generate_synonyms_phrase_query": true,
+                                "fuzzy_transpositions": true,
+                                "boost": 1
+                              }
+                            }
+                          ],
+                          "adjust_pure_negative": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"bullshit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "string1:\"shit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"complete bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"complete bull shit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"absolute bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"absolute bull shit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"total bull shit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"total bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"what bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"what bull shit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"that's bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"thats bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"that's bull shit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"thats bull shit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"this is bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"this is bull shit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"bull shit company\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"bullshit company\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"bullshit companies\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"bull shit companies\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"bull shit emails\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"bullshit emails\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"bull shit job\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"bullshit job\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"bull shit jobs\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"bullshit jobs\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"your bull shit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"your bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"bull shit response\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"bullshit response\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"bull shit responses\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"bullshit responses\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"bull shit questions\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"bullshit questions\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"is bull shit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"is bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"are bull shit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"are bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"this is some bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"that's some bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"this some bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"thats some bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"y'all some bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                }
+              ],
+              "adjust_pure_negative": true,
+              "boost": 1
+            }
+          }
+        ],
+        "must_not": [
+          {
+            "bool": {
+              "should": [
+                {
+                  "query_string": {
+                    "query": "string1:\"thinking that's bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"zero bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"0 bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"no bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"no bull-shit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"not bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"in the bullshit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"Transforming physiques - *without the bull$shit*\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"bull shit in life\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"bullshit in life\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"my shit\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string1:\"get shit done\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                }
+              ],
+              "adjust_pure_negative": true,
+              "boost": 1
+            }
+          },
+          {
+            "bool": {
+              "should": [
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"Bullshit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:8",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"Thats bullshit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:14",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"That's bullshit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:15",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"Bull shit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:9",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"Thats bull shit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:15",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"That's bull shit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:16",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"Your bullshit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:13",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"Youre bullshit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:14",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"You're bullshit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:15",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"Ur bullshit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:11",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"Your bull shit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:14",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"Youre bull shit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:15",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"You're bull shit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:16",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"Ur bull shit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:12",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"This is bullshit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:16",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"This is bull shit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:17",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"This is bull\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:12",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"Thats bull\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:10",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"That is bull\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:12",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"That's bull\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:11",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"Cut the bullshit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:16",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"Cut the bull shit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:17",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"Cut out the bullshit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:20",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"Cut out the bull shit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:21",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"Stop the bullshit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:17",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"Stop the bull shit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:18",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"Such bullshit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:13",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"Such bull shit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:14",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"This is such bullshit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:21",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"This is such bull shit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:22",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"That is such bullshit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:21",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"That is such bull shit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:22",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"That's such bullshit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:20",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"That's such bull shit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:21",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"Thats such bullshit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:19",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "bool": {
+                    "filter": [
+                      {
+                        "query_string": {
+                          "query": "string1:\"Thats such bull shit\"",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      },
+                      {
+                        "query_string": {
+                          "query": "number1:20",
+                          "fields": [],
+                          "type": "best_fields",
+                          "default_operator": "or",
+                          "max_determinized_states": 10000,
+                          "enable_position_increments": true,
+                          "fuzziness": "AUTO",
+                          "fuzzy_prefix_length": 0,
+                          "fuzzy_max_expansions": 50,
+                          "phrase_slop": 0,
+                          "escape": false,
+                          "auto_generate_synonyms_phrase_query": true,
+                          "fuzzy_transpositions": true,
+                          "boost": 1
+                        }
+                      }
+                    ],
+                    "adjust_pure_negative": true,
+                    "boost": 1
+                  }
+                }
+              ],
+              "adjust_pure_negative": true,
+              "boost": 1
+            }
+          },
+          {
+            "bool": {
+              "should": [
+                {
+                  "query_string": {
+                    "query": "string2:\"comedy\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string2:\"comedian\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string2:\"writer\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string2:\"writers\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string2:\"Chapters\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string2:\"chapter\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string2:\"prologue\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                },
+                {
+                  "query_string": {
+                    "query": "string2:\"incident\"",
+                    "fields": [],
+                    "type": "best_fields",
+                    "default_operator": "or",
+                    "max_determinized_states": 10000,
+                    "enable_position_increments": true,
+                    "fuzziness": "AUTO",
+                    "fuzzy_prefix_length": 0,
+                    "fuzzy_max_expansions": 50,
+                    "phrase_slop": 0,
+                    "escape": false,
+                    "auto_generate_synonyms_phrase_query": true,
+                    "fuzzy_transpositions": true,
+                    "boost": 1
+                  }
+                }
+              ],
+              "adjust_pure_negative": true,
+              "boost": 1
+            }
+          }
+        ],
+        "adjust_pure_negative": true,
+        "boost": 1
+      }
+    }
+  }
+}
